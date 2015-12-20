@@ -41,7 +41,7 @@ To upgrade from Reporting Module 0.3.x:
 Privileges
 ================
   
-In order for users to be able to run most reports you need to put them in a group with the privileges:
+In order for users to be able to run most reports, you need to put them in a group with the privileges:
 (this is accurate as of 0.4.1.2)  
 1. View Reports  
 2. Run Reports  
@@ -58,7 +58,7 @@ To be able to edit and configure reports, you need:
 6. Manage Cohort Definitions  
 7. Manage Report Designs
 
-You also need to grant View privileges related to the base objects your reporting definitions use. For example you need "View Programs" to create and use an "In Program" Cohort Query
+You also need to grant View privileges related to the base objects your reporting definitions use. For example, you need "View Programs" to create and use an "In Program" Cohort Query
   
 Report Types
 ================
@@ -72,7 +72,7 @@ Indicator Reports: Indicator reports aggregate groups of people for each questio
 Limitations
 ================
   
-Currently, reporting compatibility is being used to bridge the gap between the old and new (e.g., combining cohort builder and data exports). This reporting module has many core features for evaluating parts of a report but does not have a good UI for designing a full report. Cohort builder is best for adhoc querying, though for unsupported data entry, you must use the cohort query editor in the reporting module. Data exports can only be designed/exported using reporting compatibility. This module contains a feature that allows you to define simple dataset definitions, such as a SQL-based dataset, but other definitions are not available.
+Currently, reporting compatibility is being used to bridge the gap between the old and new (e.g., combining cohort builder and data exports). This reporting module has many core features for evaluating parts of a report but does not have a good UI for designing a full report. Cohort builder is best for ad-hoc querying, though, for unsupported data entry, you must use the cohort query editor in the reporting module. Data exports can only be designed/exported using reporting compatibility. This module contains a feature that allows you to define simple dataset definitions, such as an SQL-based dataset, but other definitions are not available.
   
 Project Resources
 ================
